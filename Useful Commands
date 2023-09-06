@@ -1,1 +1,5 @@
+To start SSH connection status:
+sudo systemctl start ssh
+
+To check the SSH connection status:
 sudo systemctl status ssh
