@@ -1,5 +1,19 @@
+SSH
+---
+General commands:
+clear (to clear terminal screen)
+logout (to close SSH)
+
+Directory content:
+ls (displays in a bunch)
+ll (displays in detail)
+
 To start SSH connection status:
 sudo systemctl start ssh
 
 To check the SSH connection status:
 sudo systemctl status ssh
+
+To copy folder between SSH:
+scp [file/folder name] username@IP [
+scp  api.onlyspicylatinas.com root@srv414482 
