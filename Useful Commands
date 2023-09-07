@@ -16,4 +16,9 @@ sudo systemctl status ssh
 
 To copy folder between SSH:
 scp [file/folder name] username@IP [
-scp  api.onlyspicylatinas.com root@srv414482 
+
+Files:
+scp  
+
+Folder:
+scp -r api.onlyspicylatinas.com/ root@191.101.15.60:/root
