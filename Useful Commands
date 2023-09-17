@@ -25,3 +25,9 @@ scp [file/folder name] username@IP:/[destiny file]
 
 ## Mongo DB ##
 
+#Mongo Shell#
+> mongod (primary daemon process to combine with different combinations)
+> mongosh (to open mongo shell)
+> show dbs (to display existing databases)
+> ctrl + c (to exit mongo shell)
+
