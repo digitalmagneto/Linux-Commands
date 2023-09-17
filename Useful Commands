@@ -3,8 +3,9 @@
 #General commands#
 > clear (to clear terminal screen)
 > logout (to close SSH)
-> cd (to open a directory)
-> cat
+> cd [directoy name] (to open a directory)
+> cd .. (to get out of a directory)
+> cat [file name] (to read files)
 
 # To chek directory content#
 ls (displays in a bunch)
