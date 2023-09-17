@@ -31,3 +31,4 @@ scp [file/folder name] username@IP:/[destiny file]
 > show dbs (to display existing databases)
 > ctrl + c (to exit mongo shell)
 
+
