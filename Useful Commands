@@ -1,24 +1,26 @@
-SSH
----
-General commands:
-clear (to clear terminal screen)
-logout (to close SSH)
+## SSH ###
 
-Directory content:
+#General commands#
+> clear (to clear terminal screen)
+> logout (to close SSH)
+> cd (to open a directory)
+> cat
+
+# To chek directory content#
 ls (displays in a bunch)
 ll (displays in detail)
 
-To start SSH connection status:
+# To start SSH connection status: #
 sudo systemctl start ssh
 
-To check the SSH connection status:
+# To check the SSH connection status#
 sudo systemctl status ssh
 
-To copy folder between SSH:
-scp [file/folder name] username@IP [
+#To copy files/folder between SSH#
+scp [file/folder name] username@IP:/[destiny file]
 
-Files:
-scp  
+> Files: scp  
+> Folders: scp -r api.onlyspicylatinas.com/ root@191.101.15.60:/root
 
-Folder:
-scp -r api.onlyspicylatinas.com/ root@191.101.15.60:/root
+## Mongo DB ##
+
